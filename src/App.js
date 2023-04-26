@@ -1,4 +1,5 @@
 import React from 'react'
+import { ToDoCounter } from './ToDoCounter.js';
 // import './App.css';
 
 const todos = [
@@ -10,8 +11,8 @@ const todos = [
 function App() {
   return (
     <React.Fragment>
-      {/* <TodoCounter/> */}
-        <h2>Has completado 2 de 4 ToDo's</h2>
+      <ToDoCounter/>
+        {/* <h2>Has completado 2 de 4 ToDo's</h2> */}
       {/* <TodoSearch/> */}
         <input placeholder="Hola"/>
   
